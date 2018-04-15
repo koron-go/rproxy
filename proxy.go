@@ -7,7 +7,6 @@ import (
 
 // Proxy for reflect.Value
 type Proxy interface {
-
 	Value() (reflect.Value, error)
 
 	Interface() (interface{}, error)
